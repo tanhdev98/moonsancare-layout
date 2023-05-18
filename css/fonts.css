@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "pretendard", sans-serif;
+    src: url('./fonts/Pretendard-Regular.eot');
+    src: url('./fonts/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Pretendard-Regular.woff2') format('woff2'),
+        url('./fonts/Pretendard-Regular.woff') format('woff'),
+        url('./fonts/Pretendard-Regular.ttf') format('truetype'),
+        url('./fonts/Pretendard-Regular.svg#Pretendard-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "pretendard", sans-serif;
+    src: url('./fonts/Pretendard-SemiBold.eot');
+    src: url('./fonts/Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Pretendard-SemiBold.woff2') format('woff2'),
+        url('./fonts/Pretendard-SemiBold.woff') format('woff'),
+        url('./fonts/Pretendard-SemiBold.ttf') format('truetype'),
+        url('./fonts/Pretendard-SemiBold.svg#Pretendard-SemiBold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
