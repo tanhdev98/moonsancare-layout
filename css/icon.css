@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+.icon {
+    display: inline-block;
+}
+
+
+.icon::after {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.icon-mess::after {
+    content: '';
+    width: 70px;
+    height: 70px;
+    background-image: url('../images/mess.png');
+}
+
+.icon-map::after {
+    content: '';
+    width: 70px;
+    height: 70px;
+    background-image: url('../images/map.png');
+}
+
+.icon-calender::after {
+    content: '';
+    width: 37px;
+    height: 41px;
+    background-image: url('../images/calender.png');
+}
+
+.icon-volunteer::after {
+    content: '';
+    width: 45px;
+    height: 41px;
+    background-image: url('../images/volunteer.png');
+}
+
+
+.icon-home::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/icon-home.png');
+}
