@@ -47,3 +47,13 @@
     height: 20px;
     background-image: url('../images/icon-home.png');
 }
+
+.icon-phone::after {
+    content: '';
+    width: 65px;
+    height: 65px;
+    background-image: url('../images/icon-phone.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+}
