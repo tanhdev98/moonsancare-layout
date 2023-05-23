@@ -1010,22 +1010,6 @@ nav[aria-label='breadcrumb'] {
 .guide-contents .guide-row .guide-element .guide-image {
     width: 100%;
     height: 210px;
-    border: 3px solid #272343;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.guide-contents .guide-row .guide-element .guide-image .overflow-img {
-    z-index: -1;
-    position: absolute;
-    top: 20px;
-    left: 0;
-    right: 0;
-    margin: auto;
 }
 
 .guide-arrow .guide-element::after {
@@ -1068,4 +1052,35 @@ nav[aria-label='breadcrumb'] {
 
 .hotline-container em {
     font-weight: 600;
+}
+
+/* Main Information */
+#main-information .infor-contents h1 {
+    margin-bottom: 50px;
+    font-size: 30px;
+    line-height: 40px;
+    color: #111;
+    text-align: center;
+}
+
+#main-information .infor-contents .infor-contents-row {
+    width: calc(100% - 35px);
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    margin: auto;
+}
+
+#main-information .infor-contents .infor-contents-row .infor-element {
+    width: 255px;
+}
+
+#main-information .infor-contents .infor-contents-row .infor-element .infor-name {
+    text-align: center;
+    font-size: 17px;
+    color: #111;
+    font-weight: 600;
+    margin-top: 15px;
 }
