@@ -57,3 +57,19 @@
     left: 0;
     top: 0;
 }
+
+.icon-arrow-right::after {
+    content: '';
+    width: 21px;
+    height: 10px;
+    background-image: url('../images/icon-arrow-right.png');
+    margin: 0 14px;
+}
+
+.icon-file::after {
+    content: '';
+    width: 21px;
+    height: 18px;
+    background-image: url('../images/icon-file.png');
+    margin: 0 5px;
+}

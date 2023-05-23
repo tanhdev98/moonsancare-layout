@@ -30,3 +30,7 @@
     border-color: #000;
     color: #000;
 }
+
+em {
+    font-weight: 600;
+}
