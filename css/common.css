@@ -951,3 +951,21 @@ nav[aria-label='breadcrumb'] {
     width: 100%;
     text-align: center;
 }
+
+#map .map-container {
+    width: 100%;
+    height: 430px;
+    border-radius: 20px;
+    background: #ddd;
+}
+
+#map .map-container>* {
+    border-radius: 20px;
+}
+
+#map .map-text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 25px;
+}
