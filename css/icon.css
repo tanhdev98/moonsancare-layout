@@ -73,3 +73,11 @@
     background-image: url('../images/icon-file.png');
     margin: 0 5px;
 }
+
+.icon-mini-phone::after {
+    content: '';
+    width: 22px;
+    height: 22px;
+    background-image: url('../images/icon-mini-phone.png');
+    margin-right: 11px;
+}

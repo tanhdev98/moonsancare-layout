@@ -1161,3 +1161,51 @@ nav[aria-label='breadcrumb'] {
     border-radius: 20px;
     background: #ddd;
 }
+
+#volunteers .gray-bg {
+    background: #f5f5f5;
+    margin-top: 50px;
+}
+
+#volunteers .gray-bg .btn {
+    margin-top: 12px;
+    width: 160px;
+    height: 40px;
+}
+
+#volunteers .gray-bg ul li h1 {
+    font-size: 24px;
+}
+
+#volunteers .gray-bg ul li {
+    margin-bottom: 14px;
+    line-height: 24px;
+}
+
+#volunteers .gray-bg ul li.dot {
+    position: relative;
+    text-indent: 15px;
+    margin-bottom: 5px;
+}
+
+#volunteers .gray-bg ul li.dot::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #666;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#volunteers .sub-content {
+    height: 90px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
