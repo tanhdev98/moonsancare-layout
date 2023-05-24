@@ -1103,8 +1103,12 @@ nav[aria-label='breadcrumb'] {
     height: auto;
     border: 1px solid #ddd;
     border-radius: 20px;
-    padding: 70px 60px;
+    padding: 70px 60px 45px;
     margin-top: 80px;
+}
+
+#volunteers .block-content:first-child {
+    margin-top: 10px;
 }
 
 #volunteers .block-content.orange-theme .bullet-num,
@@ -1165,6 +1169,7 @@ nav[aria-label='breadcrumb'] {
 #volunteers .gray-bg {
     background: #f5f5f5;
     margin-top: 50px;
+    padding: 50px 60px;
 }
 
 #volunteers .gray-bg .btn {
@@ -1182,13 +1187,13 @@ nav[aria-label='breadcrumb'] {
     line-height: 24px;
 }
 
-#volunteers .gray-bg ul li.dot {
+#volunteers ul li.dot {
     position: relative;
     text-indent: 15px;
     margin-bottom: 5px;
 }
 
-#volunteers .gray-bg ul li.dot::after {
+#volunteers ul li.dot::after {
     content: '';
     width: 5px;
     height: 5px;
@@ -1208,4 +1213,92 @@ nav[aria-label='breadcrumb'] {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+}
+
+.bullet-num.big-bullet {
+    width: 50px;
+    height: 50px;
+    margin-right: 3px;
+}
+
+.sub-title-bullet {
+    background: #ddd;
+    font-weight: 600;
+    border-radius: 25px;
+    width: 180px;
+    height: 50px;
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px;
+}
+
+.main-title-bullet {
+    width: 824px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    padding: 0 16px;
+    font-size: 16px;
+}
+
+.wider-container {
+    max-width: 1206px;
+}
+
+#volunteers .block-content>ul>li.title-dot {
+    position: relative;
+    text-indent: 10px;
+    margin-bottom: 18px;
+}
+
+.block-content .title-dot::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 3px;
+    height: 3px;
+    background: #111;
+    border-radius: 50%;
+}
+
+.block-content .title-dot h1 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.block-content .title-dot p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.bank-nh-logo {
+    padding-left: 78px;
+    position: relative;
+    font-weight: 600;
+    color: #111;
+}
+
+.bank-nh-logo::after {
+    content: '';
+    background: url('../images/bank-nh-logo.png') no-repeat center / 100% 100%;
+    width: 78px;
+    height: 21px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+}
+
+#volunteers .btn-dark {
+    width: 210px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 50px;
+    font-size: 20px;
 }
