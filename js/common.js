@@ -20,3 +20,15 @@
         }
     });
 });
+
+// menu hover script
+
+$(function(){
+    $(document).on('mouseover', 'header .navbar .navbar-nav .nav-item', function(){
+        $(this).addClass('on').siblings().removeClass('on');
+    });
+
+    $(document).on('mouseleave', '.navbar .navbar-nav', function(){
+        $('header .navbar .navbar-nav .nav-item').removeClass('on');
+    });
+});

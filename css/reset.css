@@ -49,3 +49,7 @@ a, .nav-link{
 	color: #000;
 	text-decoration: none;
 }
+
+a:hover, .nav-link:hover{
+	color: #eb6100;
+}
