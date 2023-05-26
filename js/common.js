@@ -25,10 +25,12 @@
 
 $(function(){
     $(document).on('mouseover', 'header .navbar .navbar-nav .nav-item', function(){
+        $(this).parents('header').addClass('on');
         $(this).addClass('on').siblings().removeClass('on');
     });
 
-    $(document).on('mouseleave', '.navbar .navbar-nav', function(){
+    $(document).on('mouseleave', 'header .navbar .menu-wrap', function(){
+        $(this).parents('header').removeClass('on');
         $('header .navbar .navbar-nav .nav-item').removeClass('on');
     });
 });
