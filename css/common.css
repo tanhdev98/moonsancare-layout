@@ -1406,3 +1406,88 @@ nav[aria-label='breadcrumb'] {
     margin-top: 50px;
     font-size: 20px;
 }
+
+#login {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+#login .bg-img {
+    width: 100%;
+    height: 100vh;
+}
+
+#login .name-page {
+    font-size: 40px;
+    color: #003668;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+#login .left-side {
+    width: 784px;
+}
+
+#login .right-side {
+    margin-left: 60px;
+    padding-top: 85px;
+}
+
+#login .main-content {
+    width: 690px;
+    height: 380px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login .main-content .form-login .title-form {
+    color: #5c6989;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+#login .main-content .form-login>input {
+    display: block;
+    width: 390px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 10px 33px;
+    margin-bottom: 5px;
+}
+
+#login .main-content .form-login .btn-login {
+    background: #0a6eaf;
+    color: #fff;
+    font-weight: 600;
+    width: 390px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#login .form-check {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 40px;
+    min-height: unset;
+}
+
+#login .form-check .form-check-label {
+    margin-top: 7px;
+    margin-left: 10px;
+}
