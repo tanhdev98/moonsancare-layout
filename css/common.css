@@ -101,11 +101,16 @@ header .navbar .navbar-nav .nav-item.on>ul {
     margin: 80px auto 0;
 }
 
-.menu-wrap {
+header .menu-wrap {
     width: 100%;
     height: 440px;
     position: absolute;
     z-index: 2;
+    display: none;
+}
+
+header.on .menu-wrap {
+    display: block;
 }
 
 .menu-wrap::after {
@@ -230,9 +235,23 @@ header.on::before {
     opacity: .7;
 }
 
+.items-long .carousel-caption h1:nth-child(4) {
+    height: 195px;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 11;
+}
+
 .items-long .carousel-caption>p {
     font-size: 20px;
     line-height: 28px;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
 }
 
 .items>i {
@@ -480,6 +499,7 @@ main {
 .news-contents .content-element {
     text-decoration: none;
     cursor: pointer;
+    flex: 1;
 }
 
 .news-contents .content-element:nth-child(even) {
@@ -623,6 +643,7 @@ nav[aria-label='breadcrumb'] {
     width: 200px;
     cursor: pointer;
     position: relative;
+    z-index: 1;
 }
 
 .breadcrumb .breadcrumb-item>p {
@@ -664,7 +685,7 @@ nav[aria-label='breadcrumb'] {
 .breadcrumb .breadcrumb-item ul li {
     height: 50px;
     border: 1px solid #ddd;
-    border-bottom: 0;
+    border-bottom: 1;
     background: #fff;
 }
 
@@ -1207,7 +1228,7 @@ nav[aria-label='breadcrumb'] {
     height: auto;
     border: 1px solid #ddd;
     border-radius: 20px;
-    padding: 70px 60px 45px;
+    padding: 70px 25px 45px;
     margin-top: 80px;
 }
 
@@ -1346,7 +1367,7 @@ nav[aria-label='breadcrumb'] {
     display: inline-flex;
     vertical-align: middle;
     align-items: center;
-    padding: 0 16px;
+    padding: 0 15px;
     font-size: 16px;
 }
 
@@ -1406,6 +1427,8 @@ nav[aria-label='breadcrumb'] {
     margin-top: 50px;
     font-size: 20px;
 }
+
+
 
 #login {
     height: 100vh;
