@@ -1514,3 +1514,9 @@ nav[aria-label='breadcrumb'] {
     margin-top: 7px;
     margin-left: 10px;
 }
+
+/* 12/07/23 */
+#page .border {
+    border: 3px solid #272343 !important;
+    border-radius: 20px;
+}
