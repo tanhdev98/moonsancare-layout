@@ -17,6 +17,7 @@
 
 #page header {
     padding-top: 135px;
+    position: relative;
 }
 
 header .main-navbar {
@@ -618,6 +619,7 @@ footer em {
     align-items: center;
     justify-content: center;
     height: 190px;
+    position: relative;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
@@ -687,6 +689,8 @@ nav[aria-label='breadcrumb'] {
     border: 1px solid #ddd;
     border-bottom: 1;
     background: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .breadcrumb .breadcrumb-item ul li a {
@@ -838,7 +842,8 @@ nav[aria-label='breadcrumb'] {
 }
 
 #welcome-page .vertical-contents .right-contents .content-element img {
-    width: 800px;
+    width: calc(100% - 136px);
+    z-index: -1;
     position: absolute;
     top: -215px;
     height: 660px;
@@ -1109,8 +1114,8 @@ nav[aria-label='breadcrumb'] {
     font-size: 30px;
     height: 40px;
     color: #111;
-    margin-bottom: 45px;
-    margin-top: 25px;
+    margin-bottom: 33px;
+    margin-top: 33px;
 }
 
 .guide-contents .guide-row {
@@ -1129,13 +1134,24 @@ nav[aria-label='breadcrumb'] {
     font-size: 17px;
     color: #111;
     font-weight: 600;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+    /* VTA 2023-08-11 */
+    margin-bottom: -40px;
+    position: relative;
+
 }
 
 .guide-contents .guide-row .guide-element .guide-image {
     width: 100%;
     height: 210px;
 }
+
+/* VTA 2023-08-11 */
+.guide-contents .guide-row .guide-element .guide-image img {
+    width: 100%;
+}
+
+/* -- */
 
 .guide-arrow .guide-element::after {
     content: '';
@@ -1158,8 +1174,10 @@ nav[aria-label='breadcrumb'] {
 }
 
 .guide-type-2 .guide-row .guide-element .guide-name {
-    margin-top: 15px;
+    margin-top: -15px;
     margin-bottom: 0;
+    position: relative;
+    top: 40px;
 }
 
 .hotline-container {
@@ -1194,7 +1212,7 @@ nav[aria-label='breadcrumb'] {
     justify-content: start;
     gap: 20px;
     flex-wrap: wrap;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
     margin: auto;
 }
 
@@ -1208,6 +1226,8 @@ nav[aria-label='breadcrumb'] {
     color: #111;
     font-weight: 600;
     margin-top: 15px;
+    position: relative;
+    top: -210px;
 }
 
 /* volunteers */
